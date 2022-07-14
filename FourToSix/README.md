@@ -17,11 +17,11 @@ Tiles between four and six Eye of Gnome windows across two monitors when used in
 
 ### NOTES  
 
-Script needs to be saved to $(HOME)/.local/share/nautilus/scripts folder
-Script needs to be made executable and nautilus needs to navigate to the scripts folder before it will show in the context menu
-Select between four and six image files in Nautilus: right click>scripts>Fourtosix.ps1 to use
-Requires xdotool and wmctrl
-Scripted with the following conditions in mind:
+Script needs to be saved to $(HOME)/.local/share/nautilus/scripts folder  
+Script needs to be made executable and nautilus needs to navigate to the scripts folder before it will show in the context menu  
+Select between four and six image files in Nautilus: right click>scripts>Fourtosix.ps1 to use  
+Requires xdotool and wmctrl  
+Scripted with the following conditions in mind:  
 1. Eye of Gnome is using X, not wayland
 2. Two 1080p monitors
 3. Monitors have horizontal span orientation
