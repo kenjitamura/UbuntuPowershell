@@ -1,8 +1,8 @@
-## SYNOPSIS  
+### SYNOPSIS  
 
 Tiles between four and six Eye of Gnome Windows Across two monitors when used in Nautilus
 
-##DESCRIPTION  
+### DESCRIPTION  
 
 1.  Nautilus paths are retrieved from environment
 2.  Total Screen width across all monitors is retrieved with wmctrl
@@ -15,7 +15,7 @@ Tiles between four and six Eye of Gnome Windows Across two monitors when used in
 9.  Move and resize the widths of each Window using xdotool
 10. Add the vertical maximized property to each Window using wmctrl
 
-##NOTES  
+### NOTES  
 
 Script needs to be saved to $(HOME)/.local/share/nautilus/scripts folder
 Script needs to be made executable and nautilus needs to navigate to the scripts folder before it will show in the context menu
