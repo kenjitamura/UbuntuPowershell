@@ -1,6 +1,6 @@
 ### SYNOPSIS  
 
-Tiles between four and six Eye of Gnome Windows Across two monitors when used in Nautilus
+Tiles between four and six Eye of Gnome windows across two monitors when used in Nautilus
 
 ### DESCRIPTION  
 
