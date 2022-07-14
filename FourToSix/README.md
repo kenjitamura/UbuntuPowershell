@@ -26,3 +26,9 @@ Scripted with the following conditions in mind:
 2. Two 1080p monitors
 3. Monitors have horizontal span orientation
 4. Four, Five, or Six images are selected at a time
+
+### PREVIEW  
+
+![Script](./Demonstration0.png?raw=true "Script Selection")
+![Left Monitor](./Demonstration1.png?raw=true "Left Monitor")
+![Right Monitor](./Demonstration2.png?raw=true "Right Monitor")
