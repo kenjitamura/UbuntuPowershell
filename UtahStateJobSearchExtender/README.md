@@ -3,7 +3,7 @@ This is a script that extends the filtering and sorting capabilities of a job se
 It currently outputs a file to the current directory called "test.md" which contains an expandable HTML table of job postings.  
 
 ### Reasoning  
-The Utah job search board as far as I could tell did not expose the ability to limit results by their age or filter the results.  This script was written to filter or sort results based on properties that exist in the results not being utilized by the sites own search engine.  
+The Utah job search board as far as I could tell did not expose the ability to limit results by their age or sort the results.  This script was written to filter or sort results based on properties that exist in the results not being utilized by the sites own search engine.  Currently sorting is set to sort by most recent and the part of the script `Sort-Object -Property openDate -Descending` will need to be manually edited to change the sorting.  
 
 ### Methodology  
 I captured a session that included logging in and searching and identified how to format the JSON requests as well as which URL's need to be navigated to in advance to build the cookie jar needed to perform the search.  
