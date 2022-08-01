@@ -15,7 +15,8 @@ A job search account with the Utah state job search board is necessary as it is 
 This script currently has limitations that need fixing at a later date:  
 1. Each invocation of the script requires entering credentials as the cookie jar is not being saved to file.  
 2. Clicking the "Job Link" to view the job description will require authenticating to the site with your web browser if it doesn't currently have a valid SSO cookie.  This is because the link being used does not currently pass the cookies into the browser session.  
-3. The "Job Link" is currently just a URL to the actual job posting on the site.  The search results actually pull in an oracle clobber link for the job description and that could potentially be utilized to update the listing with a description by resolving that clobber link which would use less bandwidth as only the description is retrieved.
+3. The "Job Link" is currently just a URL to the actual job posting on the site.  The search results actually pull in an oracle clobber link for the job description and that could potentially be utilized to update the listing with a description by resolving that clobber link which would use less bandwidth as only the description is retrieved.  
+4. This hasn't been tested with Powershell Desktop and if I had to guess the ConvertTo-Json Depths would need to be modified to work with Powershell Desktop.  
 
 ### Example Output  
 This search was performed with the following parameters:  
