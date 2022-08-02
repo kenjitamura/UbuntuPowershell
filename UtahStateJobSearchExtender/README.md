@@ -6,7 +6,7 @@ It currently outputs a file to the current directory called "test.md" which cont
 The Utah job search board as far as I could tell did not expose the ability to limit results by their age or sort the results.  This script was written to filter or sort results based on properties that exist in the results not being utilized by the sites own search engine.  Currently sorting is set to sort by most recent and the part of the script `Sort-Object -Property openDate -Descending` will need to be manually edited to change the sorting.  
 
 ### Methodology  
-I captured a session that included logging in and searching and identified how to format the JSON requests as well as which URL's need to be navigated to in advance to build the cookie jar needed to perform the search.  
+I captured a session that included logging in and searching.  Using that log I identified how to format the JSON requests as well as which URL's need to be navigated to in advance to build the cookie jar needed to perform the search.  
 
 ### Requirements  
 A job search account with the Utah state job search board is necessary as it is used to authenticate to retrieve the OAUTH2 SSO cookie.  
