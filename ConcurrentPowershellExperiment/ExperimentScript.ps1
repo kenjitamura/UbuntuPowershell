@@ -14,7 +14,7 @@ $testScript={
 }
 
 $testScriptP={
-    . "./ModuleLoader.ps1"
+    . (Join-Path -Path $using:PSScriptRoot -ChildPath "ModuleLoader.ps1")
     for ($i=0; $i -lt 10000; $i++){
         if ($i % 2  -eq 0){
             ($using:testDict).AddOrUpdate("one",${function:Test-CreateVal},${function:Test-UpdateVal}) | Out-Null
